@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0C73EA1C599B310093A916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C73E91C599B310093A916 /* main.m */; };
+		9B0C73ED1C599B310093A916 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C73EC1C599B310093A916 /* AppDelegate.m */; };
+		9B0C73F01C599B310093A916 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C73EF1C599B310093A916 /* ViewController.m */; };
+		9B0C73F31C599B310093A916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C73F11C599B310093A916 /* Main.storyboard */; };
+		9B0C73F51C599B310093A916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C73F41C599B310093A916 /* Assets.xcassets */; };
+		9B0C73F81C599B310093A916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0C73F61C599B310093A916 /* LaunchScreen.storyboard */; };
+		9B0C74031C599B310093A916 /* MatrixCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C74021C599B310093A916 /* MatrixCalcTests.m */; };
+		9B0C740E1C599B310093A916 /* MatrixCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C740D1C599B310093A916 /* MatrixCalcUITests.m */; };
+		9B0C741D1C59A7250093A916 /* CalculatorClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C741C1C59A7250093A916 /* CalculatorClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B0C73FF1C599B310093A916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0C73DD1C599B310093A916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0C73E41C599B310093A916;
+			remoteInfo = MatrixCalc;
+		};
+		9B0C740A1C599B310093A916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0C73DD1C599B310093A916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0C73E41C599B310093A916;
+			remoteInfo = MatrixCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B0C73E51C599B310093A916 /* MatrixCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0C73E91C599B310093A916 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B0C73EB1C599B310093A916 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B0C73EC1C599B310093A916 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B0C73EE1C599B310093A916 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B0C73EF1C599B310093A916 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B0C73F21C599B310093A916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B0C73F41C599B310093A916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B0C73F71C599B310093A916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B0C73F91C599B310093A916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0C73FE1C599B310093A916 /* MatrixCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0C74021C599B310093A916 /* MatrixCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixCalcTests.m; sourceTree = "<group>"; };
+		9B0C74041C599B310093A916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0C74091C599B310093A916 /* MatrixCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatrixCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0C740D1C599B310093A916 /* MatrixCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixCalcUITests.m; sourceTree = "<group>"; };
+		9B0C740F1C599B310093A916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0C741B1C59A7250093A916 /* CalculatorClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorClass.h; sourceTree = "<group>"; };
+		9B0C741C1C59A7250093A916 /* CalculatorClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B0C73E21C599B310093A916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0C73FB1C599B310093A916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0C74061C599B310093A916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B0C73DC1C599B310093A916 = {
+			isa = PBXGroup;
+			children = (
+				9B0C73E71C599B310093A916 /* MatrixCalc */,
+				9B0C74011C599B310093A916 /* MatrixCalcTests */,
+				9B0C740C1C599B310093A916 /* MatrixCalcUITests */,
+				9B0C73E61C599B310093A916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B0C73E61C599B310093A916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C73E51C599B310093A916 /* MatrixCalc.app */,
+				9B0C73FE1C599B310093A916 /* MatrixCalcTests.xctest */,
+				9B0C74091C599B310093A916 /* MatrixCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B0C73E71C599B310093A916 /* MatrixCalc */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C73EB1C599B310093A916 /* AppDelegate.h */,
+				9B0C73EC1C599B310093A916 /* AppDelegate.m */,
+				9B0C73EE1C599B310093A916 /* ViewController.h */,
+				9B0C73EF1C599B310093A916 /* ViewController.m */,
+				9B0C741B1C59A7250093A916 /* CalculatorClass.h */,
+				9B0C741C1C59A7250093A916 /* CalculatorClass.m */,
+				9B0C73F11C599B310093A916 /* Main.storyboard */,
+				9B0C73F41C599B310093A916 /* Assets.xcassets */,
+				9B0C73F61C599B310093A916 /* LaunchScreen.storyboard */,
+				9B0C73F91C599B310093A916 /* Info.plist */,
+				9B0C73E81C599B310093A916 /* Supporting Files */,
+			);
+			path = MatrixCalc;
+			sourceTree = "<group>";
+		};
+		9B0C73E81C599B310093A916 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C73E91C599B310093A916 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B0C74011C599B310093A916 /* MatrixCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C74021C599B310093A916 /* MatrixCalcTests.m */,
+				9B0C74041C599B310093A916 /* Info.plist */,
+			);
+			path = MatrixCalcTests;
+			sourceTree = "<group>";
+		};
+		9B0C740C1C599B310093A916 /* MatrixCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C740D1C599B310093A916 /* MatrixCalcUITests.m */,
+				9B0C740F1C599B310093A916 /* Info.plist */,
+			);
+			path = MatrixCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B0C73E41C599B310093A916 /* MatrixCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0C74121C599B310093A916 /* Build configuration list for PBXNativeTarget "MatrixCalc" */;
+			buildPhases = (
+				9B0C73E11C599B310093A916 /* Sources */,
+				9B0C73E21C599B310093A916 /* Frameworks */,
+				9B0C73E31C599B310093A916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrixCalc;
+			productName = MatrixCalc;
+			productReference = 9B0C73E51C599B310093A916 /* MatrixCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B0C73FD1C599B310093A916 /* MatrixCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0C74151C599B310093A916 /* Build configuration list for PBXNativeTarget "MatrixCalcTests" */;
+			buildPhases = (
+				9B0C73FA1C599B310093A916 /* Sources */,
+				9B0C73FB1C599B310093A916 /* Frameworks */,
+				9B0C73FC1C599B310093A916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B0C74001C599B310093A916 /* PBXTargetDependency */,
+			);
+			name = MatrixCalcTests;
+			productName = MatrixCalcTests;
+			productReference = 9B0C73FE1C599B310093A916 /* MatrixCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B0C74081C599B310093A916 /* MatrixCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0C74181C599B310093A916 /* Build configuration list for PBXNativeTarget "MatrixCalcUITests" */;
+			buildPhases = (
+				9B0C74051C599B310093A916 /* Sources */,
+				9B0C74061C599B310093A916 /* Frameworks */,
+				9B0C74071C599B310093A916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B0C740B1C599B310093A916 /* PBXTargetDependency */,
+			);
+			name = MatrixCalcUITests;
+			productName = MatrixCalcUITests;
+			productReference = 9B0C74091C599B310093A916 /* MatrixCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B0C73DD1C599B310093A916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xyz;
+				TargetAttributes = {
+					9B0C73E41C599B310093A916 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9B0C73FD1C599B310093A916 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9B0C73E41C599B310093A916;
+					};
+					9B0C74081C599B310093A916 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9B0C73E41C599B310093A916;
+					};
+				};
+			};
+			buildConfigurationList = 9B0C73E01C599B310093A916 /* Build configuration list for PBXProject "MatrixCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B0C73DC1C599B310093A916;
+			productRefGroup = 9B0C73E61C599B310093A916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B0C73E41C599B310093A916 /* MatrixCalc */,
+				9B0C73FD1C599B310093A916 /* MatrixCalcTests */,
+				9B0C74081C599B310093A916 /* MatrixCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B0C73E31C599B310093A916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0C73F81C599B310093A916 /* LaunchScreen.storyboard in Resources */,
+				9B0C73F51C599B310093A916 /* Assets.xcassets in Resources */,
+				9B0C73F31C599B310093A916 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0C73FC1C599B310093A916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0C74071C599B310093A916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B0C73E11C599B310093A916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0C741D1C59A7250093A916 /* CalculatorClass.m in Sources */,
+				9B0C73F01C599B310093A916 /* ViewController.m in Sources */,
+				9B0C73ED1C599B310093A916 /* AppDelegate.m in Sources */,
+				9B0C73EA1C599B310093A916 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0C73FA1C599B310093A916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0C74031C599B310093A916 /* MatrixCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0C74051C599B310093A916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0C740E1C599B310093A916 /* MatrixCalcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B0C74001C599B310093A916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0C73E41C599B310093A916 /* MatrixCalc */;
+			targetProxy = 9B0C73FF1C599B310093A916 /* PBXContainerItemProxy */;
+		};
+		9B0C740B1C599B310093A916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0C73E41C599B310093A916 /* MatrixCalc */;
+			targetProxy = 9B0C740A1C599B310093A916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B0C73F11C599B310093A916 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0C73F21C599B310093A916 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B0C73F61C599B310093A916 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0C73F71C599B310093A916 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B0C74101C599B310093A916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B0C74111C599B310093A916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B0C74131C599B310093A916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MatrixCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.MatrixCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9B0C74141C599B310093A916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MatrixCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.MatrixCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9B0C74161C599B310093A916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MatrixCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.MatrixCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrixCalc.app/MatrixCalc";
+			};
+			name = Debug;
+		};
+		9B0C74171C599B310093A916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MatrixCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.MatrixCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatrixCalc.app/MatrixCalc";
+			};
+			name = Release;
+		};
+		9B0C74191C599B310093A916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MatrixCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.MatrixCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MatrixCalc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9B0C741A1C599B310093A916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MatrixCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.MatrixCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MatrixCalc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B0C73E01C599B310093A916 /* Build configuration list for PBXProject "MatrixCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0C74101C599B310093A916 /* Debug */,
+				9B0C74111C599B310093A916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0C74121C599B310093A916 /* Build configuration list for PBXNativeTarget "MatrixCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0C74131C599B310093A916 /* Debug */,
+				9B0C74141C599B310093A916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0C74151C599B310093A916 /* Build configuration list for PBXNativeTarget "MatrixCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0C74161C599B310093A916 /* Debug */,
+				9B0C74171C599B310093A916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0C74181C599B310093A916 /* Build configuration list for PBXNativeTarget "MatrixCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0C74191C599B310093A916 /* Debug */,
+				9B0C741A1C599B310093A916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B0C73DD1C599B310093A916 /* Project object */;
+}
